@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.vtrack.runner.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 55.137 s <<< FAILURE! - in com.vtrack.runner.CukesRunner
+Forgot Password menu(Login Functionalities)  Time elapsed: 19.808 s  <<< FAILURE!
+java.lang.AssertionError
+
+drivers can see their own usernames(Login Functionalities)  Time elapsed: 6.732 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[John Doe]> but was:<[user5]>
+
+sales manager can see their own usernames(Login Functionalities)  Time elapsed: 6.922 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[John Doe]> but was:<[salesmanager101]>
+
+store manager can see their own usernames(Login Functionalities)  Time elapsed: 6.573 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[John Doe]> but was:<[storemanager85]>
+
